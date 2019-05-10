@@ -1,0 +1,14 @@
+{
+  "scopeName": "diagram.mmd",
+  "patterns": [{"include": "#mermaid"}],
+  "repository": {
+    "mermaid": {
+      "patterns": [
+        {
+          "match": "sequenceDiagram|graph|gantt",
+          "name": "storage.type.mermaid"
+        }
+      ]
+    }
+  }
+}
